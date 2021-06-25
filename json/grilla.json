@@ -1,0 +1,95 @@
+{
+  "grid": {
+    "desktop": {
+      "background-color": "red"
+    },
+    "mobile": {
+      "background-color": "blue"
+    }
+  },
+  "all": [
+    "../scss/images/gallery/imagen1.jpg",
+    "../scss/images/gallery/imagen2.jpg",
+    "../scss/images/gallery/imagen3.jpg",
+    "../scss/images/gallery/imagen4.jpg",
+    "../scss/images/gallery/imagen5.jpg",
+    "../scss/images/gallery/imagen6.jpg",
+    "../scss/images/gallery/imagen7.jpg",
+    "../scss/images/gallery/imagen8.jpg",
+    "../scss/images/gallery/imagen9.jpg",
+    "../scss/images/gallery/imagen10.jpg",
+    "../scss/images/gallery/imagen11.jpg",
+    "../scss/images/gallery/imagen12.jpg",
+    "../scss/images/gallery/imagen13.jpg",
+    "../scss/images/gallery/imagen14.jpg",
+    "../scss/images/gallery/imagen15.jpg"
+  ],
+  "branding": [
+    "../scss/images/gallery/imagen8.jpg",
+    "../scss/images/gallery/imagen3.jpg",
+    "../scss/images/gallery/imagen15.jpg",
+    "../scss/images/gallery/imagen4.jpg",
+    "../scss/images/gallery/imagen5.jpg",
+    "../scss/images/gallery/imagen12.jpg",
+    "../scss/images/gallery/imagen14.jpg",
+    "../scss/images/gallery/imagen6.jpg",
+    "../scss/images/gallery/imagen7.jpg",
+    "../scss/images/gallery/imagen13.jpg",
+    "../scss/images/gallery/imagen2.jpg",
+    "../scss/images/gallery/imagen9.jpg",
+    "../scss/images/gallery/imagen10.jpg",
+    "../scss/images/gallery/imagen1.jpg",
+    "../scss/images/gallery/imagen11.jpg"
+  ],
+  "web": [
+    "../scss/images/gallery/imagen9.jpg",
+    "../scss/images/gallery/imagen1.jpg",
+    "../scss/images/gallery/imagen2.jpg",
+    "../scss/images/gallery/imagen3.jpg",
+    "../scss/images/gallery/imagen4.jpg",
+    "../scss/images/gallery/imagen5.jpg",
+    "../scss/images/gallery/imagen6.jpg",
+    "../scss/images/gallery/imagen7.jpg",
+    "../scss/images/gallery/imagen8.jpg",
+    "../scss/images/gallery/imagen10.jpg",
+    "../scss/images/gallery/imagen11.jpg",
+    "../scss/images/gallery/imagen12.jpg",
+    "../scss/images/gallery/imagen13.jpg",
+    "../scss/images/gallery/imagen14.jpg",
+    "../scss/images/gallery/imagen15.jpg"
+  ],
+  "photography": [
+    "../scss/images/gallery/imagen10.jpg",
+    "../scss/images/gallery/imagen1.jpg",
+    "../scss/images/gallery/imagen2.jpg",
+    "../scss/images/gallery/imagen3.jpg",
+    "../scss/images/gallery/imagen4.jpg",
+    "../scss/images/gallery/imagen5.jpg",
+    "../scss/images/gallery/imagen6.jpg",
+    "../scss/images/gallery/imagen7.jpg",
+    "../scss/images/gallery/imagen8.jpg",
+    "../scss/images/gallery/imagen9.jpg",
+    "../scss/images/gallery/imagen11.jpg",
+    "../scss/images/gallery/imagen12.jpg",
+    "../scss/images/gallery/imagen13.jpg",
+    "../scss/images/gallery/imagen14.jpg",
+    "../scss/images/gallery/imagen15.jpg"
+  ],
+  "app": [
+    "../scss/images/gallery/imagen11.jpg",
+    "../scss/images/gallery/imagen1.jpg",
+    "../scss/images/gallery/imagen2.jpg",
+    "../scss/images/gallery/imagen3.jpg",
+    "../scss/images/gallery/imagen4.jpg",
+    "../scss/images/gallery/imagen5.jpg",
+    "../scss/images/gallery/imagen6.jpg",
+    "../scss/images/gallery/imagen7.jpg",
+    "../scss/images/gallery/imagen8.jpg",
+    "../scss/images/gallery/imagen9.jpg",
+    "../scss/images/gallery/imagen10.jpg",
+    "../scss/images/gallery/imagen12.jpg",
+    "../scss/images/gallery/imagen13.jpg",
+    "../scss/images/gallery/imagen14.jpg",
+    "../scss/images/gallery/imagen15.jpg"
+  ]
+}

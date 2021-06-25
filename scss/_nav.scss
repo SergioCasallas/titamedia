@@ -1,0 +1,97 @@
+.nav-secondary {
+  width: 50%;
+  margin: 0 auto;
+
+  &__list {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+  }
+
+  &__list-item {
+    position: relative;
+    overflow: hidden;
+    margin: 1%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: background-color 500ms ease;
+  }
+
+  &__list-item:hover {
+    background-color: $primaryColor;
+  }
+
+  // ! Border inferior animado
+
+  // &__list-item::after {
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   content: '';
+  //   width: 100%;
+  //   height: 3px;
+  //   background-color: $fontColorThird;
+  //   transform: translateX(-100%);
+  //   transition: transform 500ms ease;
+  // }
+
+  // &__list-item:hover::after {
+  //   transform: translateX(0%);
+  // }
+  // ! Final Border inferior animado
+
+  &__list-item:hover &__span,
+  &__list-item:hover &__icon {
+    color: $fontColorPrimary;
+  }
+
+  &__span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: $fontColorSecondary;
+    margin: 0;
+    transition: color 500ms ease;
+  }
+
+  &__link {
+    text-decoration: none;
+    padding: 5% 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    color: $fontColorFourth;
+    font-family: $fontQuestrial;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  &__link:hover {
+    color: $fontColorPrimary;
+  }
+
+  &__icon {
+    color: $fontColorSecondary;
+    transition: color 500ms ease;
+  }
+
+  &__content-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $screenPhone) {
+  .nav-secondary {
+    width: 90%;
+    &__link {
+      font-size: 0.6rem;
+    }
+  }
+}

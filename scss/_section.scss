@@ -1,0 +1,124 @@
+@import 'variables';
+
+.gallery {
+  width: 100%;
+  height: auto;
+  &__type-order {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  &__icon-grid,
+  &__icon-list {
+    cursor: pointer;
+    padding: 5px;
+    color: $fontColorThird;
+    font-size: 2rem;
+  }
+
+  &__icon-grid:hover,
+  &__icon-list:hover {
+    color: $fontColorPrimary;
+    background-color: $fontColorThird;
+  }
+
+  &__article-grid {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0 auto;
+    width: 90%;
+    min-height: 50vh;
+    // height: auto;
+  }
+
+  &__article-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    // grid-template-rows: 1fr;
+  }
+
+  &__article-grid {
+    .gallery__content-images {
+      width: 90%;
+      margin: 1rem auto;
+    }
+  }
+
+  &__article-list {
+    .gallery__content-images {
+      width: 20%;
+      margin: 1rem auto;
+    }
+  }
+
+  &__image {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  &__group-1,
+  &__group-2,
+  &__group-3 {
+    // display: grid;
+    // min-height: 50vh;
+    // height: auto;
+  }
+
+  &__button {
+    padding: 10px 15px;
+    order: 1;
+    width: 15%;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin: 15px auto;
+    background-color: $primaryColor;
+    color: $fontColorPrimary;
+    border: 2px solid transparent;
+  }
+
+  &__button:hover {
+    border: 2px solid $primaryColor;
+    background-color: $secondaryColor;
+    color: $fontColorThird;
+  }
+
+  &__article-grid {
+    .gallery__button {
+      grid-column: 1/4;
+    }
+  }
+
+  &__article-list {
+    .gallery__button {
+      grid-column: 1/2;
+    }
+  }
+}
+
+@media screen and (max-width: $screenPhone) {
+  .gallery {
+    &__article-grid {
+      .gallery__content-images {
+        width: 90%;
+        margin: 1rem auto;
+      }
+    }
+
+    &__article-list {
+      .gallery__content-images {
+        width: 60%;
+        margin: 1rem auto;
+      }
+    }
+
+    &__button {
+      font-size: 0.8rem;
+      width: 40%;
+    }
+  }
+}

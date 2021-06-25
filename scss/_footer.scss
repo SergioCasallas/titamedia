@@ -1,0 +1,80 @@
+@import 'variables';
+
+// .fa-basketball-ball {
+// }
+// .fa-facebook-f {
+// }
+// .fa-google {
+// }
+// .fa-twitter {
+// }
+// .fa-youtube {
+// }
+// .fab {
+// }
+// .fal {
+// }
+.footer {
+  padding: 3% 0;
+  width: 100%;
+  &__copyrigth {
+    display: block;
+    text-align: center;
+    // margin: 0 auto;
+    color: $fontColorFourth;
+    font-size: 1rem;
+  }
+  &__list-item {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1%;
+  }
+
+  &__icon-social {
+    color: $fontIconsSocial;
+    font-size: 1.5rem;
+    padding: 1%;
+  }
+
+  &__link {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  &__link:hover {
+    background-color: $primaryColor;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  &__link:hover &__icon-social {
+    color: $fontColorPrimary;
+  }
+
+  &__list-social {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__resaltado {
+    font-weight: 600;
+    color: $fontColorThird;
+  }
+  &__social {
+    margin: 0 auto;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: $screenPhone) {
+  .footer {
+    &__copyrigth {
+      // background-color: red;
+      font-size: 1rem;
+    }
+  }
+}
